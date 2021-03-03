@@ -1,0 +1,42 @@
+/*css-demo stylesheet*/
+
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+/* ---------------Global Styles----------------- */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -----------My Color Scheme-------------
+#8C3A3A
+#402E27
+#A6886D
+#4F5F73
+#A8B0BF
+*/
+
+
+/* ---------------Header Styles----------------- */
+
+header.primary{
+    background-color: #A6886D;
+    text-align: center;
+    color: #8C3A3A;
+    text-shadow: 2px 2px #A8B0BF; /*syntax text-shadow: x-value y-value color*/
+}
