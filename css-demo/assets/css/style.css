@@ -13,6 +13,11 @@ html {
   box-sizing: inherit;
 }
 
+/* ---------------Responsive Images----------------- */
+img{
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* ---------------Global Styles----------------- */
@@ -20,6 +25,7 @@ html {
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    line-height: 2;
 }
 
 
@@ -112,6 +118,105 @@ header.primary nav a:hover, a:active{
   border-bottom:1px dotted #8C3A3A;
   padding-bottom: 1.5rem;
 }
+
+#intro h2{
+  color: #A6886D;
+  text-shadow: 1px 1px #000;
+}
+
+/*              declared line-height in the body section jus an example that I could do it this way to.
+#intro p{
+  line-height: 2;
+}*/
+
+#content{
+  display: flex;
+  flex-flow: row space-between;
+  border-bottom:1px dotted #8C3A3A;
+  padding-bottom: 1.5rem;
+}
+
+#content article.post{
+  width:30%;
+  box-shadow:0 4px 8px rgba(0,0,0,.4);
+  padding: .7em;
+  border-radius: 10px;
+  font-size: .9rem;
+}
+
+#content article.post:hover{
+   box-shadow:0 8px 16px rgba(0,0,0,.4);
+   transition:.5s;
+  
+}
+
+#content .post figure{
+  margin:0;
+}
+
+#content article time, #article figcaption, #content article footer{
+  font-size: .8rem;
+  text-transform: uppercase;
+  text-color: #c0c0c0;
+}
+
+#content article img{
+  border-radius: 4px;
+}
+
+#content article a:link, #content article a:visited{
+  text-color: #8C3A3A;
+}
+
+#content article a:hover, #content article a:active{
+  text-decoration: none;
+}
+
+aside[role="complementary"]{
+ background-color: #A6886D; 
+ padding: 2rem;
+}
+
+aside .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+aside article.widget{
+  width: 40%;
+}
+
+aside a:link, aside a:visited{
+  color: #8C3A3A;
+  display: block;
+  margin-top: 20px;
+}
+
+aside footer{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
