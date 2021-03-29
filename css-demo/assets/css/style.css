@@ -245,6 +245,10 @@ table caption{
 
 #additional-elements ol{
   list-style-type: upper-roman;
+  list-style-position: inside;
+  text-align: center;
+  border-bottom: dotted;
+  border-bottom:1px dotted #8C3A3A;
 }
 
 #additional-elements ul ul{
@@ -252,12 +256,15 @@ table caption{
 }
 
 #additional-elements dl{
-  
+  border-top:1px dotted #8C3A3A;
+  border-bottom:1px dotted #8C3A3A;
 }
 
 #additional-elements dt{
   font-weight: bold;
   font-size: 1.2rem;
+  color: #8C3A3A;
+  text-decoration: underline;
 }
 
 #additional-elements dd{
