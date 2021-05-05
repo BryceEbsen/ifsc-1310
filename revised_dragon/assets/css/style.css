@@ -1,0 +1,248 @@
+/*color theme
+  white
+  black
+  #0511F2 blue
+  #030A8C dark blue
+  #03588C navy
+  #03658C light navy
+
+
+*/
+
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ----- Utility Styles ---- */
+
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* ---- Responsive Images ----*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---------- Global Styles -------------*/
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+/*------------- Header --------------------*/
+header.primary{
+  text-align: center;
+  color: white;
+  background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/spaceBackground.png");
+  position: relative;
+}
+
+
+header.primary h1 a {
+  color: #ffffff;
+  background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/logo.png");
+  display: block;
+  width: 449px;
+  height: 70px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header.primary h2{
+  size: 2rem;
+}
+
+header.primary nav ul{
+  margin-bottom: 0;
+  padding-bottom: 3vw;
+}
+
+header.primary nav li{
+  list-style-type: none;
+}
+
+header.primary nav a{
+  text-decoration: none;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: #03588C;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active{
+  color: #0511F2;
+}
+
+/*----------------- Content -----------------------*/
+section#content {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/Dragon_2_hover_test.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: auto;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+}
+
+section#content p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 17vw;
+  padding-right: 54vw;
+  color: black;
+}
+
+section#table{
+  display: flex;
+  float: center;
+  flex-direction: column;
+}
+
+section#table table, th, td{
+  text-align: center;
+  border: 1px solid #03588C;
+  color: #0511F2 blue;
+}
+
+/*----------------- Article ----------------------*/
+
+section#article{
+  margin-top: 0;
+  max-width: none;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background-size: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section#article h3{
+  margin-top: 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+section#article h4{
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+  font-size: 25px;
+}
+
+section#article h5{
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+  font-size: 15px;
+  display: inline;
+}
+
+section#article ul{
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+section#article img{
+  text-align: center;
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/*----------------- faq ----------------*/
+section#faq{
+  margin:0;
+  padding-bottom: 3vw;
+  background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/spaceBackground.png");
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-size: auto;
+  max-width: none;
+}
+section#faq h3{
+  margin-top: 0;
+}
+section#faq p{
+  padding-right: 3rem;
+}
+
+/*----------------- form --------------------*/
+div#wufoo-zrk1o4b15cdzqp{
+  text-align: center;
+  padding-top: 5px;
+}
+
+/*------------------ hero ----------------*/
+section#hero {
+	width: 830px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 670px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+}
+section#hero img {
+	margin: 15px;
+}
+
+
+
+/*----------------- Widget ----------------------*/
+section#widget{
+  margin-bottom: 0;
+}
+
+section#widget p{
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+/*------------------ footer -----------------*/
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer#colophon h6{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer#colophon h6 a:link,
+footer#colophon h6 a:visited {
+  color: #03658C;
+}
+
+footer#colophon h6 a:hover,
+footer#colophon h6 a:active{
+  color: #03588C;
+}
