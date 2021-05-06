@@ -106,7 +106,7 @@ section#content {
 section#content p{
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 17vw;
+  padding-left: 13vw;
   padding-right: 54vw;
   color: black;
 }
@@ -178,7 +178,10 @@ section#article img{
 section#faq{
   margin:0;
   padding-bottom: 3vw;
-  background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/spaceBackground.png");
+ /* background-image: url("https://52e35d47d6b94f41a6a3d91b0b84596e.vfs.cloud9.us-east-1.amazonaws.com/_static/ifsc-1310/dragon/assets/img/spaceBackground.png");*/
+  background-color: black;
+  margin-top: 5px;
+  border-top-color: white;
   color: white;
   height: 100%;
   width: 100%;
