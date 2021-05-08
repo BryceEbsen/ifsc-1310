@@ -45,14 +45,14 @@ body {
 header.primary{
   text-align: center;
   color: white;
-  background-image: url("assets/img/spaceBackground.png");
+  background-image: url("./assets/img/spaceBackground.png");
   position: relative;
 }
 
 
 header.primary h1 a {
   color: #ffffff;
-  background-image: url("assets/img/logo.png");
+  background-image: url("./assets/img/logo.png");
   display: block;
   width: 449px;
   height: 70px;
