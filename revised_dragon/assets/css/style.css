@@ -45,7 +45,7 @@ body {
 header.primary{
   text-align: center;
   color: white;
-  background-image: url("https://github.com/BryceEbsen/ifsc-1310/blob/main/revised_dragon/assets/img/spaceBackground.png");
+  background-image: url("https://github.com/BryceEbsen/ifsc-1310/blob/main/revised_dragon/assets/img/spaceBackground.png?raw=true");
   position: relative;
 }
 
